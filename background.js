@@ -8,7 +8,7 @@ chrome.action.onClicked.addListener((tab) => {
 		} else {
 			// 現在の日付と時刻を取得
 			var now = new Date();
-			var formattedDate = now.getFullYear() + "-" + (now.getMonth() + 1) + "-" + now.getDate() + "_" + now.getHours() + now.getMinutes() + now.getSeconds();
+			var formattedDate = now.getFullYear() + "-" + (now.getMonth() + 1) + "-" + now.getDate() + "-" + now.getHours() + now.getMinutes() + now.getSeconds();
 			var filename = "Capture-" + formattedDate + ".png";
 
 			// ダウンロード処理
