@@ -1,6 +1,6 @@
 {
 	"manifest_version": 3,
-	"name": "Simple screenshot",
+	"name": "Simple-screenshot",
 	"version": "1.0",
 	"permissions": [
 		"activeTab",
